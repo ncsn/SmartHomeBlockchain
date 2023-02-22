@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #d1e3f6;   
+    color: #1e375a; 
+}
+.ui.menu .item.selected{
+    background-color: #21ba45;
+    color: white;
+}
+
+.ui.modal {
+    top: 20%;    
+}
+
+.ui.table tr.positive {
+    background:#cbf8bb!important
+}
