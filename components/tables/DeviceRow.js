@@ -96,7 +96,7 @@ function DeviceRow(props) {
                 <Cell>{firmwareLatest}</Cell>
                 <Cell textAlign='right'>
                     <Link route={`/firmwares/${deviceAddress}/sync`}>
-                        <Button title="Szinkronizálás" icon='refresh' color='blue' />
+                        <Button title="Szinkronizálás" icon='refresh' hoover='red'/>
                     </Link>
                 </Cell>
 

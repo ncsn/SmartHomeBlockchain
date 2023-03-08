@@ -5,11 +5,11 @@
 }
 
 body {
-    background: #d1e3f6;   
-    color: #1e375a; 
+    background: #A6A9AB;
+    color: #1e375a;
 }
-.ui.menu .item.selected{
-    background-color: #21ba45;
+.ui.menu .item.selected {
+    background-color: #77797A;
     color: white;
 }
 
@@ -18,5 +18,5 @@ body {
 }
 
 .ui.table tr.positive {
-    background:#cbf8bb!important
+   background:#cbf8bb!important
 }

@@ -122,7 +122,7 @@ function DeviceIndex(props) {
 
                 </Table>
                 <Link route="/devices/new">
-                    <Button icon labelPosition='left' floated='right' color='green'>
+                    <Button icon labelPosition='left' floated='right' color='#77797A'>
                         <Icon name='add circle' />
                         Eszköz hozzáadása
                     </Button>

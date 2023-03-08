@@ -120,7 +120,7 @@ function FirmwareSync(props) {
                 />
 
                 <Message error header="Hiba!" content={errorMessage} />
-                <Form.Button loading={loading} color='green'>Szinkronizálás</Form.Button>
+                <Form.Button loading={loading} color='#77797A'>Szinkronizálás</Form.Button>
 
                 <Dimmer active={active} page>
                     <Dimmer.Dimmable as={Loader} size="big">
