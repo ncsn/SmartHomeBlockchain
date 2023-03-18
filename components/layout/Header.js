@@ -23,7 +23,7 @@ const Header = () => {
       <Menu style={{ marginTop: "10px" }}>
         <Link route="/">
           <a className="item">
-            <img src='/favicon.png' height='30px' width='30px' />
+            <img src='/homeicon.png' height='30px' width='30px' />
           </a>
         </Link>
 
@@ -59,7 +59,7 @@ const Header = () => {
       <Menu style={{ marginTop: "10px" }}>
         <Link route="/">
           <a className="item">
-            <img src='/favicon.png' height='30px' width='30px' />
+            <img src='/homeicon.png' height='30px' width='30px' />
           </a>
         </Link>
 

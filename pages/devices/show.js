@@ -45,9 +45,13 @@ function DeviceShow(props) {
                 <Label color='teal' ribbon size='medium' style={{ left: '0' }}>Státusz</Label>
                 <p style={{ padding: '4%', marginLeft: '5%' }}>{props.deviceItem.status}</p>
               </Item.Description></Grid.Row>
-                <Grid.Row><Item.Description>
-                 <Label color='teal' ribbon size='medium' style={{ left: '0' }}>Naplózás(Kitöltésre vár)</Label>
-                  <p style={{ padding: '4%', marginLeft: '5%' }}>{props.deviceItem.xyz}</p>
+              <Grid.Row><Item.Description>
+                <Label color='teal' ribbon size='medium' style={{ left: '0' }}>Konfigurációs fájl</Label>
+                <p style={{ padding: '4%', marginLeft: '5%' }}>{props.deviceItem.xyzk}</p>
+              </Item.Description></Grid.Row>
+              <Grid.Row><Item.Description>
+                <Label color='teal' ribbon size='medium' style={{ left: '0' }}>Naplózás</Label>
+                <p style={{ padding: '4%', marginLeft: '5%' }}>{props.deviceItem.xyz}</p>
               </Item.Description></Grid.Row>
               <Grid.Row><Item.Description>
                 <Label color='black' ribbon size='medium' style={{ left: '0' }}>Tulajdonos</Label>
